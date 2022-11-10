@@ -4,11 +4,11 @@
 
 ### Current progress
 
-## Scraper
+Scraper
 - Implemented web scraper to get Amazon product review information from a given search keyword.
   - Implemented in Python with BeautifulSoup4 and requests libraries
 
-## NLP Sentiment Analysis Training
+NLP Sentiment Analysis Training
 - Amazon review data set obtianed from Kaggle
 - Understand workflows of how to preprocess text before Sentiment Analysis
 - Researched into various NLP techniques used in Sentiment Analysis
