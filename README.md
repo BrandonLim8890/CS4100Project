@@ -18,9 +18,9 @@ NLP Sentiment Analysis Training
   - Word2Vec
 
 ### Reflection
-- Our goal for milestone 1 was to implement a scraper for Amazon reviews, and train a sentiment analysis model on that data.
+- Our goal for milestone 1 was to implement a scraper for Amazon reviews and train a sentiment analysis model on that data.
 - We succesfully acquired our data, but haven't implement it with a model yet.
-- We didn't fully understand the process of using a sentiment analysis model when planning milestones.
+- We didn't fully understand the process of using a sentiment analysis model when planning our milestones.
 - Functionality (succesfully giving scores to text) was planned for milestone 2. Now it makes more sense that training a model on data comes hand in hand with functionality, so we will aim to do that for milestone 2.
 
 ### Next steps
