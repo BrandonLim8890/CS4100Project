@@ -37,7 +37,7 @@ Improvements to product review scraper:
 - The scraper now collects more review text, allowing us to give our model more information and make more accurate predictions.
 - Cleaned review text to exclude non-ASCII characters, unrelated words such as "read more". Cleaned output format.
 - Slightly improved scraper performance, allowing for customizable number of products/reviews to scrape.
-Progress on Sentiment-Analysis algorithm
+Progress on Sentiment-Analysis algorithm:
 - We decided on using a Convolutional Neural Net Model.
 - The model can be used to give a rating of 1 or 0 to a chunk of text (an amazon review), which can be used to find an average rating score for a product.
 
