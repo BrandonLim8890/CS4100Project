@@ -27,3 +27,20 @@ NLP Sentiment Analysis Training
 - Having done enough research, we will need to choose a technique of our we will be qualifying our data. We will then need to actually implement the preprocessing, as well as feeding our AI applicaiton the data set from kaggle. 
 - Combine the scraper to provide a data set to test our Sentiment Analysis algorithm on
 - Create CLI for user to interact with
+
+## Milestone Report 2
+
+### Current progress
+Scraper
+- Improved web scraping script
+  - Randomness: in order to get a more accurate sampling of products, scraper now selects products and reviews at random instead of choosing the top ones
+  - The scraper now collects more review text, allowing us to make more accurate predictions by giving our model more information
+  - Cleaned review text to exclude non-ASCII characters, unrelated words such as "read more". Cleaned output format to input into model
+  - Slightly improved scraper performance, allowing for customizable number of products/reviews to scrape
+
+### Reflection
+- The scraper should now be fully ready to combine with the sentiment analysis algorithm. All we need to do is pass the outputs of the scraper to our model to perform sentiment analysis
+- The scraper is now a better reflection of the mission of our project: instead of comparing the top options recommended by Amazon, we randomly select products to compare (they are still products from the first page of results, so they should all have enough reviews to analyze). This allows us to somewhat avoid using Amazon's recommendation algorithm and give our model less biased inputs.
+
+### Next steps
+
