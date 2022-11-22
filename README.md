@@ -31,13 +31,12 @@ NLP Sentiment Analysis Training
 ## Milestone Report 2
 
 ### Current progress
-Scraper
-- Improved web scraping script
-  - Finalized I/O of scraper: takes in a search keyword (optional args: number of products to scrape, number of reviews to scrape), and returns a dictionary of product names (keys) to lists of reviews for that product (values).
-  - Randomness: in order to get a more accurate sampling of products, scraper now selects products and reviews at random instead of choosing just the top products.
-  - The scraper now collects more review text, allowing us to give our model more information and make more accurate predictions.
-  - Cleaned review text to exclude non-ASCII characters, unrelated words such as "read more". Cleaned output format.
-  - Slightly improved scraper performance, allowing for customizable number of products/reviews to scrape.
+Improvements to product review scraper:
+- Finalized I/O of scraper: takes in a search keyword (optional args: number of products to scrape, number of reviews to scrape), and returns a dictionary of product names (keys) to lists of reviews for that product (values).
+- Randomness: in order to get a more accurate sampling of products, scraper now selects products and reviews at random instead of choosing just the top products.
+- The scraper now collects more review text, allowing us to give our model more information and make more accurate predictions.
+- Cleaned review text to exclude non-ASCII characters, unrelated words such as "read more". Cleaned output format.
+- Slightly improved scraper performance, allowing for customizable number of products/reviews to scrape.
 
 ### Reflection
 - The scraper should now be fully ready to combine with the sentiment analysis algorithm. All we need to do is pass the outputs of the scraper to our model to perform sentiment analysis.
