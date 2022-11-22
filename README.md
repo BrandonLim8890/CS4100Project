@@ -45,10 +45,10 @@ Progress on Sentiment-Analysis algorithm
 - The scraper should now be fully ready to combine with the sentiment analysis algorithm. All we need to do is pass the outputs of the scraper to our model to perform sentiment analysis.
 - The scraper is now a better reflection of the mission of our project: instead of comparing the top options recommended by Amazon, we randomly select products to compare (they are still products from the first page of results, so they should all have enough reviews to analyze). This allows us to somewhat avoid using Amazon's recommendation algorithm and give our model less biased inputs.
 - We're currently creating a CNN model to perform natural language processing. Given a dataset, creating a table with our features is quite slow. We might consider other existing tools (such as Vader or Roberta) to improve efficiency. 
-- Giving each comment a rating of either 1 or 0 is quite limited and requires looking at several comments per item. We are hoping to give individual comments more specific scores as well.
+- Giving each comment a rating of either 1 or 0 is quite limited and requires looking at several comments per item for a more precise score. We are hoping to give individual comments more specific scores as well.
 
 
 ### Next steps
 - Implement the web scraper with the sentiment analysis model.
 - Integrating other models (such as Bag of words) for a more accurate and efficient solution.
-- Create a simple command line interace that allows the user to type in what product to look up.
+- Create a simple command line interface that allows the user to type in what product to look up.
