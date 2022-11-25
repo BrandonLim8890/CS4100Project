@@ -1,5 +1,17 @@
 # CS4100Project
 
+## Installation Guide
+First make sure you are on the AI conda environment, python 3.6.13. Then run `pip install -r requirements.txt` to install all the required pip packages.
+Then head to these 2 sites, and install the required data sets:
+- [Self-trained model](https://www.kaggle.com/code/muonneutrino/sentiment-analysis-with-amazon-reviews/data)
+- [VADER and Roberta](https://www.kaggle.com/code/robikscube/sentiment-analysis-python-youtube-tutorial/data)
+
+You should have 3 files in total: `test.ft.txt.bz2`, `train.ft.txt.bz2` and `Reviews.csv`.
+Place all 3 files into a folder located at `./input/`
+
+Then you can open up the notebooks and run the cells to build/use the models.
+
+
 ## Milestone Report 1
 
 ### Current progress
